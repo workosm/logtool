@@ -61,3 +61,8 @@ python logtool.py --format txt --output security_scan
 |---|---|---|
 | System Logs | Event Viewer (System Log) | journalctl  or  /var/log/syslog |
 | Terminal History | PowerShell (PSReadLine) | .bash_history  or  .zsh_history |
+
+## Troubleshooting
+* Permission Denied: Ensure you are using sudo on Linux/macOS or "Run as Administrator" on Windows.
+* Empty Logs: If a keyword is provided, the script only returns matches. Try running without --keyword to verify logs exist.
+* ModuleNotFoundError: Run pip install pywin32 (Windows only).
