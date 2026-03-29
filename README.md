@@ -16,14 +16,14 @@ pip install -r requirements.txt
 ```
 
 ## Available Commands
-1. Default Execution
+### Default Execution
 
 Retrieves the last 20 entries for each category and saves them to log_report.json.
 ```bash
 python logtool.py
 ```
 
-2. Output Format (-f or --format)
+### Output Format (-f or --format)
 
 Switch between machine-readable JSON or human-readable TXT.
 ```bash
@@ -31,7 +31,7 @@ Switch between machine-readable JSON or human-readable TXT.
 python logtool.py --format txt
 ```
 
-3. Keyword Filtering (-k or --keyword)
+### Keyword Filtering (-k or --keyword)
 
 Filter logs to only include entries containing a specific string (case-insensitive).
 ```bash
@@ -39,7 +39,7 @@ Filter logs to only include entries containing a specific string (case-insensiti
 python logtool.py --keyword error
 ```
 
-5. Custom Filename (-o or --output)
+### Custom Filename (-o or --output)
 
 Define the output filename (the extension is added automatically).
 ```bash
