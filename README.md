@@ -40,7 +40,7 @@ python logtool.py --keyword error
 Define the output filename (the extension is added automatically).
 ```bash
 # Save to "security_scan.txt"
-python log_extractor.py --format txt --output security_scan
+python logtool.py --format txt --output security_scan
 ```
 
 ## Usage Examples
